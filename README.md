@@ -1,0 +1,2 @@
+The binary files are split into data and label files with suffixes: train_X.bin, train_y.bin, test_X.bin and test_y.bin.
+Within each, the values are stored as tightly packed arrays of uint8's. The images are stored in column-major order, one channel at a time. That is, the first 96*96 values are the red channel, the next 96*96 are green, and the last are blue. The labeles are in the range 1 to 10.
